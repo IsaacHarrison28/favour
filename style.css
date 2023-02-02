@@ -15,6 +15,7 @@ body{
     --nav-links-background: rgb(219, 209, 209);
     --heading-color: #35374f/*rgba(10, 10, 10, 0.5)*/;
     --sub-heading-color: #7bae37/*rgba(0, 0, 0, 0.5)*/;
+    --heading-font-size: clamp(1.5rem, 7vw, 2.4rem);
 }
 
 nav{
@@ -216,7 +217,7 @@ nav{
 
 .description-section > h2{
     text-align: center;
-    font-size: clamp(1.5rem, 7vw, 2.4rem);
+    font-size: var(--heading-font-size);
     padding: 1em 0;
     color: var(--heading-color);
 }
@@ -241,7 +242,7 @@ nav{
 
 .heading h2{
     text-align: center;
-    font-size: clamp(1.5rem, 8vw, 2rem);
+    font-size: clamp(1.2rem, 6vw, 2rem);
     padding-top: 1.5em;
     padding-bottom: 1em;
     color: var(--sub-heading-color);
@@ -252,7 +253,7 @@ nav{
 }
 
 .info p{
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 0 1em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgba(0, 0, 0, 0.7);
@@ -293,6 +294,7 @@ nav{
 
 #contact{
     color: var(--heading-color);
+    font-size: var(--heading-font-size);
 }
 
 .text{
@@ -303,7 +305,7 @@ nav{
 }
 
 .text p{
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgba(0, 0, 0, 0.7);
     font-weight: normal;
