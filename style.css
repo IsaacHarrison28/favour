@@ -15,7 +15,7 @@ body{
     --nav-background: whitesmoke;
     --nav-links-background: rgb(219, 209, 209);
     --heading-color: #35374f;
-    --sub-heading-color: #7bae37;
+    --sub-heading-color: rgb(11, 82, 72)/*#7bae37*/;
     --heading-font-size: clamp(1.5rem, 8vw, 2.4rem);
     --paragraph-font-size: clamp(1rem, 5vw, 1.2rem);
 }
