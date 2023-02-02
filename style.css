@@ -122,9 +122,11 @@ nav{
 
 .banner{
     height: 90vh;
-    position: relative;
-    top: 0;
-    background: linear-gradient(45deg, rgba(50, 134, 126, 0.5), rgba(0, 0, 0, 0.8))
+    background: linear-gradient(45deg, rgba(50, 134, 126, 0.5), rgba(0, 0, 0, 0.8)),
+                url('images/pexels-life-of-pix-7974.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .banner h2{
