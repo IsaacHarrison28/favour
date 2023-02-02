@@ -121,7 +121,7 @@ nav{
 }
 
 .banner{
-    height: 90vh;
+    height: 100vh;
     background: linear-gradient(45deg, rgba(50, 134, 126, 0.5), rgba(0, 0, 0, 0.8)),
                 url('images/pexels-life-of-pix-7974.jpg');
     background-repeat: no-repeat;
@@ -131,12 +131,12 @@ nav{
 
 .banner h2{
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
     width: 90vw;
-    font-size: 3rem;
+    font-size: 4rem;
     color: rgba(255, 255, 255, 1)/*rgb(252, 227, 227)*/;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -144,7 +144,7 @@ nav{
 .banner h5{
     position: absolute;
     width: 90vw;
-    top: 60%;
+    top: 65%;
     left: 50%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
@@ -165,7 +165,7 @@ nav{
 
 .btn-container{
     position: absolute;
-    top: 75%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
