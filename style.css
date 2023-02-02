@@ -131,7 +131,7 @@ nav{
 
 .banner h2{
     position: absolute;
-    top: 30%;
+    top: 50%;
     left: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
@@ -144,16 +144,16 @@ nav{
 .banner h5{
     position: absolute;
     width: 90vw;
-    top: 45%;
+    top: 60%;
     left: 50%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     transform: translate(-50%, -50%);
-    font-size: 1.5rem;
+    font-size: clamp(1rem, 9vw, 1.5rem);
     color: green/*rgb(0, 245, 245)*/;
 }
 
-.banner img{
+/* .banner img{
     width: 100%;
     position: absolute;
     top: 0;
@@ -161,11 +161,11 @@ nav{
     height: 100%;
     left: 0;
     right: 0;
-}
+} */
 
 .btn-container{
     position: absolute;
-    top: 60%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
