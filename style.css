@@ -385,16 +385,17 @@ footer{
     }
 
     .banner h2{
-        font-size: clamp(2rem, 9vw, 5rem);
+        font-size: clamp(5rem, 9vw, 6rem);
+        top: 40%;
     }
 
     .banner h5{
-        top: 53%;
-        font-size: clamp(1.5rem, 5vw, 2rem);
+        top: 58%;
+        font-size: clamp(2rem, 5vw, 2.5rem);
     }
 
     .btn-container{
-        top: 70%;
+        top: 85%;
     }
 
     .heading h2{
