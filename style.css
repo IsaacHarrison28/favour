@@ -13,8 +13,8 @@ body{
     --top-nav-background: rgba(230, 214, 214, 0.5);
     --nav-background: whitesmoke;
     --nav-links-background: rgb(219, 209, 209);
-    --heading-color: #7bae37/*rgba(10, 10, 10, 0.5)*/;
-    --sub-heading-color: #62fcaf(121, 70, 70)/*rgba(0, 0, 0, 0.5)*/;
+    --heading-color: #35374f/*rgba(10, 10, 10, 0.5)*/;
+    --sub-heading-color: #7bae37/*rgba(0, 0, 0, 0.5)*/;
 }
 
 nav{
