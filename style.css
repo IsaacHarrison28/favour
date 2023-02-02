@@ -16,6 +16,7 @@ body{
     --heading-color: #35374f/*rgba(10, 10, 10, 0.5)*/;
     --sub-heading-color: #7bae37/*rgba(0, 0, 0, 0.5)*/;
     --heading-font-size: clamp(1.5rem, 7vw, 2.4rem);
+    --paragraph-font-size: clamp(1rem, 5vw, 1.2rem);
 }
 
 nav{
@@ -253,7 +254,7 @@ nav{
 }
 
 .info p{
-    font-size: 1rem;
+    font-size: var(--paragraph-font-size);
     padding: 0 1em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgba(0, 0, 0, 0.7);
@@ -305,7 +306,7 @@ nav{
 }
 
 .text p{
-    font-size: 1rem;
+    font-size: var(--paragraph-font-size);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgba(0, 0, 0, 0.7);
     font-weight: normal;
