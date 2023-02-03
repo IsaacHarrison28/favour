@@ -142,7 +142,7 @@ nav{
     transform: translate(-50%, -50%);
     width: 90vw;
     font-size: 4rem;
-    color: rgba(255, 255, 255, 1)/*rgb(252, 227, 227)*/;
+    color: rgb(233, 224, 224)/*rgba(255, 255, 255, 1)*/;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -155,7 +155,8 @@ nav{
     text-align: center;
     transform: translate(-50%, -50%);
     font-size: clamp(1rem, 9vw, 1.5rem);
-    color: green/*rgb(0, 245, 245)*/;
+    color: white/*rgb(233, 209, 209)*/;
+    font-weight: bold;
 }
 
 .btn-container{
